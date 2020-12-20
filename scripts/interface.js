@@ -15,5 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleClick(object){
         let pos = object.target.id[7];
         playMove(pos, object.target);
+        checkWinner();
     }
 })
