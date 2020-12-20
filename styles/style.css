@@ -20,7 +20,7 @@ header{
     justify-content: center;
     text-align: center;
     font-size: 30px;
-    background-color: #F38375;
+    background-color: #ff988a;
     border: gray 2px solid;
     margin-bottom: 3px;
     margin-top: 1px;
@@ -35,7 +35,7 @@ h1{
     width: 400px;
 }
 h1:hover{
-    background-color: #ff7c6b;
+    background-color: #ff8575;
 }
 h1:active{
     background-color: #ff6956;
