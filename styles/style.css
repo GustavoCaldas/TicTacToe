@@ -16,6 +16,8 @@ body{
     border: solid rgb(0, 0, 0) 3px;
 }
 header{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 30px;
     background-color: #F38375;
@@ -23,6 +25,20 @@ header{
     margin-bottom: 3px;
     margin-top: 1px;
     padding: 20px;
+}
+#link_header{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    border-radius: 50px;
+    width: 400px;
+}
+h1:hover{
+    background-color: #ff7c6b;
+}
+h1:active{
+    background-color: #ff6956;
 }
 #grid{
     height: 600px;
@@ -38,7 +54,12 @@ header{
     background-color: white;
 }
 .square:hover{
-    background-color: rgb(248, 248, 248);
+    transition-delay: 50ms;
+    background-color: rgb(231, 231, 231);
+}
+.square:active{
+    transition-delay: 50ms;
+    background-color: rgb(202, 202, 202);
 }
 #buttons{
     height: 100px;
@@ -47,12 +68,24 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
 }
+@keyframes upButton{
+    0% {border-bottom: gray 2px solid;}
+    50% {border-bottom: black 2px solid;}
+    100% {border-bottom: yellow 2px solid;}
+}
 #button_x:hover, #button_o:hover{
-    background-color: white;
+    animation-name: upButton;
+    animation-duration: 500ms;
+    animation-delay: 100ms;
+    animation-timing-function: ease-in;
+}
+#button_x:active, #button_o:active{
+    background-color: #d0eed1c2;
 }
 #button_x{
     width: 80px;
     height: 78px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../assets/icns/X.png");
     margin-top: -40px;
