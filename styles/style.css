@@ -40,9 +40,11 @@ h1:hover{
 h1:active{
     background-color: #ff6956;
 }
+main{
+    background-color: #e1fce3c2;
+}
 #grid{
     height: 600px;
-    background-color: #e1fce3c2;
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 120px 120px 120px;
@@ -100,6 +102,26 @@ h1:active{
     background-repeat: no-repeat;
     background-image: url("../assets/icns/O.png");
     margin-top: -40px;
+}
+#reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+    background-color: #ff988a;
+    color: white;
+    border-radius: 20px;
+}
+#reset:hover{
+    background-color: #ff6e5b;
+}
+#reset:active{
+    background-color: #ff7b69;
 }
 footer{
     background-color: #333745;

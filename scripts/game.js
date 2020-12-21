@@ -64,3 +64,16 @@ function checkWinner(){
             }
     })
 }
+
+function reset(){
+    // grid.forEach((element) => {
+    //     element = "";     --> Nao funciona n sei pq!
+    //     console.log(element)
+    // })
+    for(let i=0; i<grid.length; i++){
+        grid[i] = null;
+    }
+    console.log(grid)
+    lastPlay = null;
+    currentPlay = null;
+}
