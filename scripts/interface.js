@@ -6,15 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
         square.addEventListener('click', handleClick);
     })
 
-    botao_x = document.getElementById("button_x");
-    botao_x.addEventListener('click', controlPlaytime);
+    button_x = document.getElementById("button_x");
+    button_x.addEventListener('click', controlPlaytime);
 
-    botao_o = document.getElementById("button_o");
-    botao_o.addEventListener('click', controlPlaytime);
+    button_o = document.getElementById("button_o");
+    button_o.addEventListener('click', controlPlaytime);
 
     function handleClick(object){
         let pos = object.target.id[7];
         playMove(pos, object.target);
-        checkWinner();
+        setTimeout(checkWinner, 20);
     }
 })
