@@ -77,9 +77,10 @@ h1:active{
 }
 #button_x:hover, #button_o:hover{
     animation-name: upButton;
-    animation-duration: 500ms;
-    animation-delay: 100ms;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
     animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 #button_x:active, #button_o:active{
     background-color: #d0eed1c2;
