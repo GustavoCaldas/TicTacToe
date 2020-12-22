@@ -66,10 +66,7 @@ function checkWinner(){
 }
 
 function reset(){
-    // grid.forEach((element) => {
-    //     element = "";     --> Nao funciona n sei pq!
-    //     console.log(element)
-    // })
+    // Reset the game.
     for(let i=0; i<grid.length; i++){
         grid[i] = null;
     }
