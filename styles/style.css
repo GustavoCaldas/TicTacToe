@@ -40,8 +40,20 @@ h1:hover{
 h1:active{
     background-color: #ff6956;
 }
+#placar{
+    font-size: 35px;
+    height: 80px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+#placar h2{
+    font-size: 45px;
+}
 #grid{
-    height: 600px;
+    height: 550px;
     background-color: #e1fce3c2;
     display: grid;
     grid-template-columns: 150px 150px 150px;
