@@ -63,12 +63,13 @@ main{
     width: 150px;
     border-radius: 40px;
     text-align: center;
+    color: white;
 }
 #usuario1 h2{
-    background-color: red;
+    background-color: rgb(165, 68, 68);
 }
 #usuario2 h2{
-    background-color: blue;
+    background-color: rgb(69, 69, 163);
 }
 .inputs{
     width: 220px;
@@ -93,6 +94,7 @@ main{
     background-color: #ff988a;
     color: white;
     border-radius: 20px;
+    text-decoration: none;
 }
 #start:hover{
     background-color: #ff6e5b;
