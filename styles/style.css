@@ -41,7 +41,7 @@ h1:active{
     background-color: #ff6956;
 }
 main{
-    background-color: #e1fce3c2;
+    background-color: #75df7e;
 }
 #placar{
     font-size: 35px;
@@ -78,7 +78,7 @@ main{
 }
 #buttons{
     height: 100px;
-    background-color: #e1fce3c2;
+    background-color: #75df7e;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
